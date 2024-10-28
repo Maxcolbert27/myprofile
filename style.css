@@ -1,0 +1,119 @@
+/* Styles globaux pour la page */
+body {
+    background-color: #f0f8ff; /* Couleur de fond douce */
+    font-family: 'Arial', sans-serif; /* Police sans serif */
+    color: #333; /* Couleur de texte sombre */
+    font-size: 16px; /* Taille de texte par défaut */
+    line-height: 1.6; /* Espacement entre les lignes */
+}
+
+/* En-tête */
+header {
+    text-align: center; /* Centrer le texte dans l'en-tête */
+    margin-bottom: 20px; /* Espacement en bas de l'en-tête */
+}
+
+/* Image ronde */
+.img-circle {
+    width: 150px; /* Largeur de la photo de profil */
+    height: 150px; /* Hauteur pour faire un cercle */
+    border-radius: 50%; /* Faire une image ronde */
+    border: 2px solid #3498db; /* Bordure bleue autour de la photo */
+    margin-top: 10px;
+}
+
+/* Styles pour le conteneur */
+.container {
+    width: 700px; /* Largeur du conteneur par défaut */
+    margin: 40px auto; /* Centrer le conteneur */
+    background-color: #e74c3c; /* Couleur de fond rouge pour le conteneur */
+    padding: 20px; /* Espacement interne */
+}
+
+/* Styles pour les cartes */
+.card-white {
+    background-color: #ffffff; /* Fond blanc pour les cartes */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    padding: 20px; /* Espacement interne */
+    margin-bottom: 20px; /* Espacement entre les cartes */
+}
+
+/* Styles pour le bouton */
+.btn {
+    background-color: #3498db; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement interne */
+    text-decoration: none; /* Supprimer le soulignement */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition pour un effet de survol doux */
+}
+
+.btn:hover {
+    background-color: #2ecc71; /* Couleur du bouton au survol */
+}
+
+/* Styles pour les en-têtes */
+h1, h2, h3 {
+    font-family: 'Helvetica', sans-serif; /* Police uniforme pour les en-têtes */
+    color: #2ecc71; /* Couleur verte pour h1 */
+}
+
+h2 {
+    color: #3498db; /* Couleur bleue pour <h2> */
+}
+
+h3 {
+    color: #e74c3c; /* Couleur rouge pour <h3> */
+}
+
+/* Liens */
+a {
+    color: #3498db; /* Couleur des liens */
+    text-decoration: none; /* Supprimer le soulignement */
+    transition: color 0.3s ease; /* Transition pour un effet de survol doux */
+}
+
+a:hover {
+    color: #e74c3c; /* Couleur des liens au survol */
+}
+
+/* Liste sans puces */
+.list-inline {
+    list-style: none; /* Supprimer les puces */
+    padding-left: 0; /* Supprimer le remplissage à gauche */
+    text-align: center; /* Centrer la liste */
+}
+
+.list-inline > li {
+    display: inline; /* Comportement en ligne pour les éléments de la liste */
+    padding: 0 20px; /* Espacement entre les éléments */
+}
+
+/* Pied de page */
+footer {
+    text-align: center; /* Centrer le texte dans le pied de page */
+    margin-top: 20px; /* Espacement en haut du pied de page */
+    font-size: 14px; /* Taille de texte plus petite pour le pied de page */
+}
+
+/* Media Queries pour le design responsive */
+@media (max-width: 960px) {
+    .container {
+        width: 700px; /* Largeur pour les écrans < 960px */
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px; /* Largeur pour les écrans < 720px */
+        background-color: #e67e22; /* Changer la couleur de fond pour les écrans plus petits */
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px; /* Largeur pour les écrans < 540px */
+        background-color: #c0392b; /* Changer la couleur de fond pour les écrans encore plus petits */
+    }
+}
